@@ -51,7 +51,7 @@ bst_t *bst_delete(bst_t *root, bst_t *node)
 			parent->right = node->left;
 		if (node->left != NULL)
 			node->left->parent = parent;
-[O		free(node);
+		free(node);
 		return (parent == NULL ? node->left : root);
 	}
 
