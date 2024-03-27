@@ -1,1 +1,4 @@
-Team Project
+Team Project on Binary trees
+- Smith
+- Diamond
+
